@@ -6,6 +6,10 @@ const withMDX = createMDX();
 const config = {
   reactStrictMode: true,
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: '/',
 };
 
 export default withMDX(config);

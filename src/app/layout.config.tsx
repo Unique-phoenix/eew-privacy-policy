@@ -26,6 +26,7 @@ export const baseOptions: BaseLayoutProps = {
             width={24}
             height={24}
             style={{ objectFit: 'cover' }}
+            unoptimized // Add this to ensure image works in static export
           />
         </div>
         Phoenix EEW
